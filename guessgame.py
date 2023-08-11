@@ -22,7 +22,7 @@ def game():
             continue
         
         if number == guessnum:
-            print(f"Congratulations, you won the game you won brazzer 1 month subscription the lucky number is {guessnum}.")
+            print(f"Congratulations, you won the game the lucky number is {guessnum}.")
             score["wins"] += 1
         else:
             print(f"Sorry, the lucky number was {guessnum}. You lost the game.")
