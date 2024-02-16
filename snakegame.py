@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 
-width = 800
+width = 800 
 height = 600
 
 
