@@ -5,15 +5,13 @@ import pyperclip
 class PasswordEncrypterApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Password Encrypter and Descriptor")
+        self.root.title("Password Encrypter and Decrypter")
 
         self.key = Fernet.generate_key()
         self.fernet = Fernet(self.key)
 
-        self.left_frame = tk.Frame(root, bg="#EFEFEF")  # Light gray background
+        self.left_frame = tk.Frame(root, bg="#EFEFEF") 
         self.left_frame.pack(side=tk.LEFT, padx=20, pady=20)
-
-        self.right_frame = tk.Frame(root, bg="#F5F5F5")  # Lighter gray background
         self.right_frame.pack(side=tk.LEFT, padx=20, pady=20)
 
         self.label = tk.Label(self.left_frame, text="Enter Password:", fg="#333333")  # Dark gray text
