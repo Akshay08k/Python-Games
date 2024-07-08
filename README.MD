@@ -1,3 +1,3 @@
-# Python Games
+# Python Apps
 
- These Are Some Short Python Games Or Apps Which I created just for funn
+Some Of python apps creating while learning python
